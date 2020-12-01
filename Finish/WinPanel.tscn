@@ -1,0 +1,21 @@
+[gd_scene format=2]
+
+[node name="WinPanel" type="Panel"]
+margin_left = 112.0
+margin_top = 312.0
+margin_right = 271.0
+margin_bottom = 383.0
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 54.0
+margin_top = 27.0
+margin_right = 110.0
+margin_bottom = 43.0
+text = "You win!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
