@@ -1,7 +1,7 @@
 extends Control
 
 var win_score = 0 setget set_win_score
-var is_dead = true
+var is_dead = false
 
 onready var win_panel = $WinPanel
 onready var win_score_label = $WinPanel/ScoreLabel

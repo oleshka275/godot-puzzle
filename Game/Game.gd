@@ -18,6 +18,7 @@ func _process(delta):
 		if member.damage == true:
 			win_control.is_dead = true
 			player.gameLoop = false
+			win_control.win_panel.show()
 			
 	
 	#processing for coins area entered
